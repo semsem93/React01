@@ -15,7 +15,7 @@ mongoose.connect('mongodb+srv://semi:sm2200mk@cluster0-xalwm.mongodb.net/test?re
 }).then(() => console.log('MongoDB connect success'))
   .catch(err => console.log(err))
 
-app.get('/', (req, res) => res.send('hello world'))
+app.get('/', (req, res) => res.send('Hello World!!'))
 
 app.post('/register', (req, res) => {
   // 회원 가입할때 필요한 정보들을 clinet 에서 가져오면

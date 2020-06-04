@@ -6,7 +6,9 @@ nodemon 이용시: npm run dev
 
 *기능 설명*
 
-http://localhost:5000/ 
+[SERVER]
+
+http : // localhost : 5000 / 
 
 hello word 문구 출력
 
@@ -36,6 +38,8 @@ password 받으면 암호화시켜서 db에 있는 암호화된 pw랑 비교후
 http://localhost:5000/api/users/logout
 
 token이 있다면 token 제거 -> 로그아웃 
+
+[Clinet]
 
 http://localhost:3000/
 

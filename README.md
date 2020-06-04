@@ -36,3 +36,11 @@ password 받으면 암호화시켜서 db에 있는 암호화된 pw랑 비교후
 http://localhost:5000/api/users/logout
 
 token이 있다면 token 제거 -> 로그아웃 
+
+http://localhost:3000/
+
+randing Page
+
+http://loginhost:login/
+
+login page => 성공시 randing Page로 이동

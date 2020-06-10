@@ -15,8 +15,8 @@ npm run dev
 ## Features
 * server
 > 1. mongoDB 사용
-> 2. token 생성 및 쿠기 저장 기능 추가
-> 3. password 암호화 / 복호화
+> 2. jsonwebtoken 라이브러리 사용 token 생성 및 쿠기 저장 기능 추가
+> 3. bcrypt 라이브러리 사용 password 암호화
 ------------------
 * hello word 문구 출력\
 ```http : // localhost : 5000 /``` 

@@ -12,9 +12,6 @@ npm install
 npm run dev
 ```
 
-*nodemon은 실시간 코드 바로 반영 가능*
-nodemon 이용시: npm run dev
-
 ## Features
 * server
 > 1. mongoDB 사용
@@ -54,9 +51,9 @@ json 형식\
 > 4. redux 기능 사용
 > 5. Auth 기능 사용
 --------------
-* randing Page
+* randing Page\
 ```http://localhost:3000/```
-* login Page
+* login Page\
 ```http://loginhost:3000/login/```
-* register Page
+* register Page\
 ```http://loginhost:3000/register```

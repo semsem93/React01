@@ -18,7 +18,7 @@ npm run dev
 > 2. jsonwebtoken 라이브러리 사용 token 생성 및 쿠기 저장 기능 추가
 > 3. bcrypt 라이브러리 사용 password 암호화
 ------------------
-* hello word 문구 출력\
+* hello word!!\
 ```http : // localhost : 5000 /``` 
 * 가입 관련\
 ```http://localhost:5000/api/users/register``` 

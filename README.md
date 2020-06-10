@@ -15,47 +15,48 @@ npm run dev
 *nodemon은 실시간 코드 바로 반영 가능*
 nodemon 이용시: npm run dev
 
-*기능 설명*
-
-[SERVER]
-
-http : // localhost : 5000 / 
-
-hello word 문구 출력
-
-http://localhost:5000/api/users/register
-
-가입 관련
-필수 json
-{
-	"name":"test",
-	"email":"test@gamil.com",
-	"password":"test"
+## Features
+* server
+> 1. mongoDB 사용
+> 2. token 생성 및 쿠기 저장 기능 추가
+> 3. password 암호화 / 복호화
+------------------
+* hello word 문구 출력\
+```http : // localhost : 5000 /``` 
+* 가입 관련\
+```http://localhost:5000/api/users/register``` 
+\
+json 형식\
+``
+{ 
+"name":"test", 
+"email":"test@gamil.com", 
+"password":"test" 
 }
-password 받으면 암호화해서 db에 저장
-
-http://localhost:5000/api/users/login
-
-로그인 관련
-필수 json
+``
+* 로그인\
+```http://localhost:5000/api/users/login```
+\
+json 형식\
+``
 {
     "email":"test@gmail.com",
     "password":"test"
 }
-
-password 받으면 암호화시켜서 db에 있는 암호화된 pw랑 비교후
-같으면 token 생성 -> 로그인 유지 시킴
-
-http://localhost:5000/api/users/logout
-
-token이 있다면 token 제거 -> 로그아웃 
-
-[Clinet]
-
-http://localhost:3000/
-
-randing Page
-
-http://loginhost:login/
-
-login page => 성공시 randing Page로 이동
+``
+* 로그아웃\
+```http://localhost:5000/api/users/logout```
+---------------------
+* Client
+> 1. randing Page : 로그인후 들어갈 수 있는 화면 (로그아웃 가능)
+> 2. Login Page : 로그인할 수 있는 화면
+> 3. Register Page : 회원 가입할 수 있는 화면
+> 4. redux 기능 사용
+> 5. Auth 기능 사용
+--------------
+* randing Page
+```http://localhost:3000/```
+* login Page
+```http://loginhost:3000/login/```
+* register Page
+```http://loginhost:3000/register```

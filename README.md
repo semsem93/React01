@@ -1,7 +1,16 @@
-*React Side Project
+# React Side Project 01
+Follow the [React Getting Started](https://ko.reactjs.org/tutorial/tutorial.html) Guide for detailed instructions on setting up your local machine for development.
 
+## How to run
+* Clone repository and install dependencies
+```
+git clone Project
+```
+* Run Application
+```
 npm install
-npm run start
+npm run dev
+```
 
 *nodemon은 실시간 코드 바로 반영 가능*
 nodemon 이용시: npm run dev
